@@ -1,13 +1,13 @@
 === BuddyPress WooCommerce My Account Integration. Create WooCommerce Member Pages  ===
-Contributors: themekraft, svenl77, gfirem, garrett-eclipse, shabushabu, kishores, vmarin, freemius
+Contributors: themekraft, svenl77, gfirem, garrett-eclipse, shabushabu, kishores, vmarin, camilolunacom
 Tags: woocommerce my account, woocommerce buddypress, woocommerce profile, woocommerce member pages, buddyboss
 Requires at least: 4.9
 Tested up to: 6.6
-Stable tag: 3.4.24
+Stable tag: 3.4.25
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Integrate WooCommerce my account into BuddyPress member profiles. Bring your WooCommerce member pages into BuddyPress and BuddyBoss. Create the most straightforward user experience and benefit from Social Network features like groups and messages.
+Integrate WooCommerce my account into BuddyPress member profiles. Bring your WooCommerce member pages into BuddyPress and BuddyBoss.
 
 == Description ==
 
@@ -95,6 +95,10 @@ Head to the 'BuddyPress Integration for WooCommerce Settings' menu item in your 
 9. Admin menu options
 
 == Changelog ==
+= 3.4.25 - 20 Feb 2026 =
+* Updated Freemius SDK.
+* Fixed vulneratbility on wc4bp_delete_page function (issue found by Tieu Pham Trong Nhan)
+
 = 3.4.24 - 16 Jul 2024 =
 * Updated Freemius SDK.
 * Tested up to WordPress 6.6

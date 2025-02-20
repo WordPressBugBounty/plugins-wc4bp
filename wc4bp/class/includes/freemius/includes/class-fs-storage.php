@@ -23,6 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
      * @property bool|null   $is_extensions_tracking_allowed
      * @property bool|null   $is_diagnostic_tracking_allowed
      * @property object      $sync_cron
+     * @property bool|int    $install_timestamp
      */
     class FS_Storage {
         /**
